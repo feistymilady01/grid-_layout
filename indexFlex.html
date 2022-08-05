@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    :root{
+    --background-color1: rgb(247, 133, 133) ;
+    --background-color2: rgb(55, 55, 158) ;
+    --background-color3: rgb(2, 2, 44) ;
+    --small-font-size:5%;
+    --medium-font-size:10%;
+    --large-font-size:20%;
+}
+.one{
+    background-color:var(--background-color1);
+    color: rgb(241, 238, 238);
+    height: 50%;
+}
+.two{
+    background-color: var(--background-color2);
+    color: whitesmoke;
+    height: 50%;
+}
+.three{
+    background-color:var(--background-color3) ;
+    color: white;
+    height: 50%;
+}
+.cup{
+    background-color: rgb(212, 132, 132);
+}
+.cup1{
+    background-color: rgb(100, 100, 156);
+}
+.cup2{
+    background-color: rgb(41, 41, 78);
+}
+
+/* .btn1{
+    background-color: var(--background-color1);
+}
+.btn2{
+    background-color: var(--background-color2);
+}
+.btn3{
+    background-color: var(--background-color3);
+} */
+
+</style>
+<body>
+    <main>
+    <div class="one">
+    <!-- card for sedans -->
+    <div class="cup"></div>
+
+    <h1> SEDANS </h1>
+    <img src="sedan.png" alt="SEDANS" width="10px">
+
+    <P> Choose a sedan for its affordability and excellent fuel economy.
+        Ideal for cruising the city or on your next road trip</P>
+
+    <button class="btn1"> Learn More </button> 
+</div>
+
+<div class="two">
+    <!-- card for SUVS -->
+    <div class="cup1"></div>
+
+    <h1> SUVS </h1>
+    <img src="suvs.jpg" alt="SUVS" width="10px">
+
+    <P> Take an SUV for its spacious interior, power, and versatility.
+        Perfect for yournext family vacation and off-road adventures</P>
+
+        <button class="btn2"> Learn More </button> 
+</div>
+
+<div class="three">
+    <div class="cup2"></div>
+
+    <!-- card for LUXURY -->
+
+    <h1> LUXURY </h1>
+    <img src="luxury.jpg" alt="LUXURY" width="10px">
+
+    <P> Cruise in the best car brand without bloated prices.
+        Enjoy the enhanced comfort of a luxury rental and arrive in style.
+    </P>
+
+    <button class="btn3"> Learn More </button> 
+</div>
+</main>
+</body>
+</html>
